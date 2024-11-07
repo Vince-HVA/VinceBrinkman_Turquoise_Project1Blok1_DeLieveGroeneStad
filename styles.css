@@ -1,0 +1,207 @@
+.logoh {
+    width: 9em;
+    height: auto;
+}
+
+@font-face {
+    font-family: paragraaf;
+    src: url(fonts/ZillaSlab-Regular.ttf);
+}
+
+p {
+    font-family: 'paragraaf';
+}
+
+.logoo {
+    width: 3em;
+}
+
+.headerh {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6e1c6d; 
+}
+
+.headerb {
+    display: flex;
+    background-color: purple;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+body {
+    background-color: rgb(231, 225, 225);
+    padding-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+main section h1 {
+    color: rgb(108, 22, 81);
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8.1em;
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+    z-index: 2;
+    margin-bottom: -1.8em;
+}
+
+.blogp1 {
+    background-color: rgb(107, 25, 87);
+    padding: 1em;
+    width: 12em;
+    margin-left: 4.7em;
+    top: 10em;
+    color: white;
+    top: 11.5em;
+
+}
+
+main p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overimg {
+    margin-left: 1.7em;
+    width: 20em;
+    height: 12em;
+}
+
+.blogh1 {
+    color: white;
+    background-color: #2B9337;
+    padding: 0.2em;
+    width: 8em;
+    text-align: center;
+    margin-left: 1.6em;
+    border-radius: 1em;
+    margin-top: 2em;
+}
+
+.achtergrondp {
+    position: absolute;
+    left: 1.8em;
+    z-index: 2;
+    text-align: center;
+    width: 20em;
+}
+
+.achtergrondafbeelding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21em;
+    margin-bottom: 7em;
+    margin-left: 1.2em;
+    opacity: 30%;
+    height: 12.3em;
+}
+
+.welkomp {
+    color: rgb(0, 0, 0);
+    background-color: #6AB53B;
+    padding: 1.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 5em;
+    font-size: 1em;
+    text-align: center;
+    width: 19em;
+    margin-left: 1em;
+}
+
+.p1 {
+    background-color: #6AB53B;
+    width: 10em;
+    text-align: center;
+    margin-left: 5.5em;
+    padding: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-radius: 4em;
+    font-size: 1em;
+}
+
+h2 {
+    color: purple;
+    font-size: medium;
+    position: absolute;
+    left: 8.4em;
+}
+
+.hier {
+    position: absolute;
+    top: 47.5em;
+    left: 10.5em;
+    font-size: 1em;
+    display: flex;
+}
+
+.hier1 {
+    position: absolute;
+    top: 63em;
+    left: 10.5em;
+    font-size: 1em; 
+    display: flex;
+ 
+}
+
+.overpd1 {
+    width: 20em;
+    margin-left: 2em;
+}
+
+.s {
+    color: rgb(231, 225, 225);
+}
+
+footer nav ul {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    list-style: none; 
+    padding: 0.5em; 
+    padding-left: 3em;
+    padding-right: 3em;
+    margin: 2em;
+    margin-bottom: 1em; 
+    gap: 3em; 
+    background-color: #8DE56D;
+    border-radius: 2em;
+}
+
+footer nav ul li {
+    display: flex; 
+}
+
+footer nav ul li img {
+    width: 40px; 
+    height: auto; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
